@@ -30,6 +30,7 @@ export default function IndexPage() {
   return (
     <div>
       <Nav />
+      esta es una prueba
       <Container>
         <Entries entries={entries} />
       </Container>

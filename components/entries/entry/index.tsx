@@ -16,6 +16,7 @@ function Entry({ id, title, content }) {
     mutate('/api/get-entries')
     setDeleting(false)
   }
+  
   return (
     <div>
       <div className="flex items-center">
