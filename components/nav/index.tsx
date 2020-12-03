@@ -3,7 +3,6 @@ import Container from '@/components/container'
 import ButtonLink from '@/components/button-link'
 
 import Navbar from 'react-bootstrap/Navbar'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 
 export default function Nav({ title = 'Entries' }) {
