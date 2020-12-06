@@ -3,6 +3,7 @@ import Skeleton from 'react-loading-skeleton'
 import Nav from '@/components/nav'
 import Container from '@/components/container'
 import Entries from '@/components/entries'
+import Jumbotronix from '@/components/jumbotron'
 
 import { useEntries } from '@/lib/swr-hooks'
 
@@ -30,7 +31,7 @@ export default function IndexPage() {
   return (
     <div>
       <Nav />
-      esta es una prueba
+      <Jumbotronix title="PRUEBA DE APIS" />
       <Container>
         <Entries entries={entries} />
       </Container>
