@@ -9,7 +9,7 @@ export default function Nav({ title = 'Entries' }) {
   return (
     <Container>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand><Link href="/">React-Bootstrap</Link></Navbar.Brand>
+        <Navbar.Brand><Link href="/"><b>NEXT</b></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Link href="/">
@@ -18,13 +18,6 @@ export default function Nav({ title = 'Entries' }) {
         </Navbar.Collapse>
         <ButtonLink href="/new">New Entry</ButtonLink>
       </Navbar>
-      <nav>
-        <div className="flex justify-between items-center">
-          <Link href="/">
-            <a className="font-bold text-3xl">{title}</a>
-          </Link>
-        </div>
-      </nav>
     </Container>
   )
 }
