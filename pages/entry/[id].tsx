@@ -14,8 +14,10 @@ export default function EditEntryPage() {
       <>
         <Nav title="DETALLE" />
         <Container>
-          <h1 className="font-bold text-3xl my-2">{data.title}</h1>
-          <p>{data.content}</p>
+          <div className="container" style={{ boxShadow: '0 0 10px #dedede', height: '100vh' }}>
+            <h1 className="font-bold text-3xl my-2">{data.title}</h1>
+            <p>{data.content}</p>
+          </div>
         </Container>
       </>
     )
@@ -24,8 +26,10 @@ export default function EditEntryPage() {
       <>
         <Nav title="DETALLE" />
         <Container>
-          <h1 className="font-bold text-3xl my-2">...</h1>
-          <p>...</p>
+          <div className="container">
+            <h1 className="font-bold text-3xl my-2">...</h1>
+            <p>...</p>
+          </div>
         </Container>
       </>
     )
