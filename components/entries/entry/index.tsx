@@ -19,8 +19,8 @@ function Entry({ id, title, content }) {
   
   return (
     <div className="container pb-3">
-      <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-        <img className="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="/img/erin-lindford.jpg" alt="Woman's Face" />
+      <div className="py-2 px-5 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+        <img className="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Woman's Face" />
         <div className="text-center space-y-2 sm:text-left">
           <div className="space-y-0.5">
             <p className="text-lg text-black font-semibold">
@@ -31,7 +31,6 @@ function Entry({ id, title, content }) {
             <p className="text-gray-500 font-medium">
             {content}
             </p>
-            <hr/>
           </div>
           <ButtonLink
             href={`/entry/edit/${id}?title=${title}&content=${content}`}
@@ -48,7 +47,6 @@ function Entry({ id, title, content }) {
           </Button>
         </div>
       </div>
-      <hr/>
     </div>
   )
 }
