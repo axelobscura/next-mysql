@@ -4,8 +4,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 export default function Jumbotronix({ title = 'Entries' }) {
   return (
-    <Container>
-      <Jumbotron>
+    <div className="container">
+      <Jumbotron fluid>
         <Container>
           <h1>{title}</h1>
           <p>
@@ -14,6 +14,6 @@ export default function Jumbotronix({ title = 'Entries' }) {
           </p>
         </Container>
       </Jumbotron>
-    </Container>
+    </div>
   )
 }

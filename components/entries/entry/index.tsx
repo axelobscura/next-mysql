@@ -18,7 +18,7 @@ function Entry({ id, title, content }) {
   }
   
   return (
-    <div>
+    <div className="container">
       <div className="flex items-center">
         <Link href={`/entry/${id}`}>
           <a className="font-bold py-2">{title}</a>

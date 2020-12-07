@@ -31,8 +31,8 @@ export default function IndexPage() {
   return (
     <div>
       <Nav />
-      <Jumbotronix title="PRUEBA DE APIS" />
       <Container>
+        <Jumbotronix title="PRUEBA DE APIS" />
         <Entries entries={entries} />
       </Container>
     </div>
