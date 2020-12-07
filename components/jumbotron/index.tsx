@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 export default function Jumbotronix({ title = 'Entries' }) {
   return (
     <Container>
-      <Jumbotron fluid>
+      <Jumbotron>
         <Container>
           <h1>{title}</h1>
           <p>
