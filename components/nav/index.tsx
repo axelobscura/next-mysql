@@ -15,7 +15,7 @@ export default function Nav({ title = 'Entries' }) {
             <a className="font-light text-3xl">{title}</a>
           </Link>
         </Navbar.Collapse>
-        <ButtonLink href="/new">New Entry</ButtonLink>
+        <ButtonLink href="/new">NUEVA ENTRADA</ButtonLink>
       </Navbar>
     </Container>
   )
