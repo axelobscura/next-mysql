@@ -19,7 +19,7 @@ function Entry({ id, title, content }) {
   
   return (
     <div className="container pb-3">
-      <div className="py-2 px-5 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      <div className="py-2 px-5 max-w-xl mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
         <img className="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Woman's Face" />
         <div className="text-center space-y-2 sm:text-left">
           <div className="space-y-0.5">
@@ -34,14 +34,14 @@ function Entry({ id, title, content }) {
           </div>
           <ButtonLink
             href={`/entry/edit/${id}?title=${title}&content=${content}`}
-            className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
+            className="px-5 py-2 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
           >
             Editar
           </ButtonLink>
           <Button
             disabled={deleting}
             onClick={deleteEntry}
-            className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
+            className="px-5 py-0 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
           >
             {deleting ? 'Eliminando...' : 'Eliminar'}
           </Button>
