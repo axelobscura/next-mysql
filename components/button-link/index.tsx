@@ -9,7 +9,6 @@ function ButtonLink({ href = '/', className = '', children }) {
           'bg-black',
           'text-white',
           'p-2',
-          'rounded',
           'uppercase',
           'text-sm',
           'font-bold',

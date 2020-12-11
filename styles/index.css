@@ -1,6 +1,26 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
+body {
+  background: #f15a22;
+}
+.navbar {
+  background-color: #f15a22 !important;
+  box-shadow: 0 0 10px #4d1b09;
+}
+.elfooter {
+  background: #f15a22;
+  color: #ffffff;
+  font-weight: 100;
+  box-shadow: 0 0 10px #4d1b09;
+}
+.btn {
+  border-radius: none !important;
+}
+.eljumbo {
+  background: #f15a22;
+  box-shadow: 0 0 10px #4d1b09 inset;
+}
 
 /* Start purging... */
 @tailwind components;
