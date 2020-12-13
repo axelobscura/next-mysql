@@ -5,7 +5,7 @@ import ButtonLink from '@/components/button-link'
 import Navbar from 'react-bootstrap/Navbar'
 
 
-export default function Nav({ title = 'Entries' }) {
+export default function Nav({ title = 'ENTRADAS', home }) {
   return (
     <Container>
       <Navbar bg="light" expand="lg">
@@ -15,7 +15,7 @@ export default function Nav({ title = 'Entries' }) {
             <a className="font-light text-3xl">{title}</a>
           </Link>
         </Navbar.Collapse>
-        <ButtonLink href="/new">NUEVA ENTRADA</ButtonLink>
+        <ButtonLink href="/new">{home ? ("BIENVENIDO") : ("NUEVA ENTRADA")}</ButtonLink>
       </Navbar>
     </Container>
   )

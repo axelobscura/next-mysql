@@ -2,28 +2,41 @@
 
 /* Write your own custom base styles here */
 body {
-  background: #f15a22;
+  background: #111;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .navbar {
-  background-color: #f15a22 !important;
-  box-shadow: 0 0 10px #4d1b09;
+  background-color: #222 !important;
+  box-shadow: 0 0 10px #000;
 }
 .elfooter {
-  background: #f15a22;
+  background: #222;
   color: #ffffff;
   font-weight: 100;
-  box-shadow: 0 0 10px #4d1b09;
+  box-shadow: 0 0 10px #000;
 }
 .btn {
   border-radius: none !important;
 }
 .eljumbo {
-  background: #f15a22;
+  background: #111;
+  padding: 10px;
+}
+.eljumbo h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  color:#ffffff;
 }
 .entradas {
   margin-bottom: 90px;
 }
-
+.text-3xl {
+  color: #ffffff;
+  font-weight: bold;
+}
+a.bg-black {
+  padding: 10px;
+}
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
