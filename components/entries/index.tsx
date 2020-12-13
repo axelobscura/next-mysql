@@ -3,7 +3,7 @@ import Entry from './entry'
 function Entries({ entries }) {
   if (entries) {
     return (
-      <div>
+      <div className="entradas">
         {entries.map((e) => (
           <div key={e.id} className="py-2">
             <Entry id={e.id} title={e.title} content={e.content} />

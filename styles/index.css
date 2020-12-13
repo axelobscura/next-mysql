@@ -20,6 +20,9 @@ body {
 .eljumbo {
   background: #f15a22;
 }
+.entradas {
+  margin-bottom: 90px;
+}
 
 /* Start purging... */
 @tailwind components;
