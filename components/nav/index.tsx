@@ -13,7 +13,7 @@ function Nav({ title = 'ENTRADAS', home }) {
           <Link href="/">
             <a className="font-light text-3xl">{title}</a>
           </Link>
-          <Link href="/">LINK</Link>
+          <Link href="/new">LINK</Link>
         </Navbar.Collapse>
         <ButtonLink href="/new">{home ? ("BIENVENIDO") : ("NUEVA ENTRADA")}</ButtonLink>
       </Navbar>

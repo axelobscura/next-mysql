@@ -16,6 +16,7 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            {home ? "SI ES EL HOME" : "NO ES EL HOME"}
             <main>{children}</main>
         </div>
     )
