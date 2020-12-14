@@ -4,7 +4,7 @@ import ButtonLink from '@/components/button-link'
 
 import Navbar from 'react-bootstrap/Navbar'
 
-function Nav({ title = 'ENTRADAS', home }) {
+function Nav({ title = 'ENTRADAS', home = "entradas" }) {
   return (
     <Container>
       <Navbar bg="light" expand="lg">
