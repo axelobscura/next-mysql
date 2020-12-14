@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import { useEntry } from '@/lib/swr-hooks'
 import Container from '@/components/container'
 import Nav from '@/components/nav'
+import Layout from '@/components/layout'
 
 export default function EditEntryPage() {
   const router = useRouter()
@@ -11,7 +12,7 @@ export default function EditEntryPage() {
 
   if (data) {
     return (
-      <>
+      <Layout home="detalle">
         <Nav title="DETALLE" />
         <Container>
           <div className="container" style={{ boxShadow: '0 0 10px #dedede', height: '100vh' }}>
@@ -19,11 +20,11 @@ export default function EditEntryPage() {
             <p>{data.content}</p>
           </div>
         </Container>
-      </>
+      </Layout>
     )
   } else {
     return (
-      <>
+      <Layout home="detalle">
         <Nav title="DETALLE" />
         <Container>
           <div className="container">
@@ -31,7 +32,7 @@ export default function EditEntryPage() {
             <p>...</p>
           </div>
         </Container>
-      </>
+      </Layout>
     )
   }
 }
