@@ -4,8 +4,7 @@ import ButtonLink from '@/components/button-link'
 
 import Navbar from 'react-bootstrap/Navbar'
 
-
-export default function Nav({ title = 'ENTRADAS', home }) {
+function Nav({ title = 'ENTRADAS', home }) {
   return (
     <Container>
       <Navbar bg="light" expand="lg">
@@ -14,9 +13,12 @@ export default function Nav({ title = 'ENTRADAS', home }) {
           <Link href="/">
             <a className="font-light text-3xl">{title}</a>
           </Link>
+          <Link href="/">LINK</Link>
         </Navbar.Collapse>
         <ButtonLink href="/new">{home ? ("BIENVENIDO") : ("NUEVA ENTRADA")}</ButtonLink>
       </Navbar>
     </Container>
   )
 }
+
+export default Nav;
