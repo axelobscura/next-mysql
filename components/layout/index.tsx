@@ -23,7 +23,8 @@ function Layout({ children, home }) {
             </Head>
             <main style={{
                 background: 'url('+imagen+') no-repeat center center fixed',
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                height: '100vh'
             }}>{children}</main>
         </div>
     )
