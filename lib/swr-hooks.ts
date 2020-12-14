@@ -14,6 +14,16 @@ export function useEntries() {
   }
 }
 
+export function useCategorias() {
+  const { data, error } = useSWR(`/api/get-categorias`, fetcher)
+
+  return {
+    categorias: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
 export function useEntry(id: string) {
   return useSWR(`/api/get-entry?id=${id}`, fetcher)
 }

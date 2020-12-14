@@ -4,12 +4,11 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 export default function Jumbotronix({ title = 'Entries' }) {
   return (
     <div className="container mt-3">
-      <Jumbotron fluid className="text-center eljumbo">
+      <Jumbotron fluid className="text-center eljumbo mb-0">
         <Container>
           <h1>{title}</h1>
           <p>
-            This is a modified jumbotron that occupies the entire horizontal space of
-            its parent.
+            FULL STACK DEVELOPER
           </p>
         </Container>
       </Jumbotron>

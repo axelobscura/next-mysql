@@ -15,7 +15,7 @@ function Nav({ title = 'ENTRADAS', home = "entradas" }) {
           </Link>
           <Link href="/entradas">ENTRADAS</Link>
         </Navbar.Collapse>
-        <ButtonLink href="/new">{home ? ("BIENVENIDO") : ("NUEVA ENTRADA")}</ButtonLink>
+        <ButtonLink href="/new" className="bg-white">{home ? ("AGREGAR ENTRADA") : ("NUEVA ENTRADA")}</ButtonLink>
       </Navbar>
     </Container>
   )

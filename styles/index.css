@@ -13,8 +13,9 @@ body {
   width: 100%;
 }
 .elfooter {
-  color: #ffffff;
+  color: #012746;
   font-weight: 100;
+  font-size: 0.7rem;
 }
 .btn {
   border-radius: none !important;
@@ -28,8 +29,9 @@ body {
 .eljumbo h1 {
   font-weight: bold;
   font-size: 2rem;
-  color:#ffffff;
+  color:#012746;
 }
+
 .entradas {
   margin-bottom: 0px;
 }
@@ -42,9 +44,15 @@ a.bg-black {
 }
 .container-fluid.home {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.categorias p {
+  font-size: 0.7rem;
+  padding: 10px;
+  text-align: center;
 }
 /* Start purging... */
 @tailwind components;
