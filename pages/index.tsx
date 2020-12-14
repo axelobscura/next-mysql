@@ -9,6 +9,7 @@ import { useCategorias } from '@/lib/swr-hooks'
 function IndexPage() {
   const { categorias, isLoading } = useCategorias()
   console.log("Las categos: " + JSON.stringify(categorias))
+  
   return (
     <Layout home="home">
       <div>

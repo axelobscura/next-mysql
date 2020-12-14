@@ -60,6 +60,16 @@ a.bg-black {
   background: #012746;
   color:#ffffff;
 }
+.navbar a.font-light {
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  border-right: 1px solid #ffffff;
+  transition: all 1s;
+}
+.navbar a.font-light:hover {
+  color: #012746;
+  text-decoration: none;
+}
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
