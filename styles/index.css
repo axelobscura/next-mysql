@@ -8,6 +8,9 @@ body {
 .navbar {
   background: transparent;
   background-color: transparent !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .elfooter {
   color: #ffffff;
@@ -20,6 +23,7 @@ body {
   background: transparent;
   background-color: transparent !important;
   padding: 10px;
+  margin-top: -10px;;
 }
 .eljumbo h1 {
   font-weight: bold;
