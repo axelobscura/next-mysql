@@ -4,11 +4,19 @@ const name = 'Your Name'
 export const siteTitle = 'Next.js Sample Website'
 
 function Layout({ children, home }) {
-    let imagen = "";
+    let estilo = {};
     if(home === "home"){
-        imagen = "fondo_avion.jpg"
+        estilo = {
+            background: 'url(fondo_avion.jpg) no-repeat center center fixed',
+            backgroundSize: 'cover',
+            height: '100vh',
+        }
     } else {
-        imagen = "fondo_isla.jpg"
+        estilo = {
+            background: 'url(fondo_isla.jpg) no-repeat center center fixed',
+            backgroundSize: 'cover',
+            height: '100vh'
+        }
     }
     return (
         <div>
@@ -21,11 +29,7 @@ function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            <main style={{
-                background: 'url('+imagen+') no-repeat center center fixed',
-                backgroundSize: 'cover',
-                height: '100vh'
-            }}>{children}</main>
+            <main style={estilo}>{children}</main>
         </div>
     )
 }

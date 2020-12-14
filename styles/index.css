@@ -36,6 +36,12 @@ body {
 a.bg-black {
   padding: 10px;
 }
+.container-fluid.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
