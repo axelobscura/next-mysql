@@ -1,10 +1,15 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
 const name = 'Your Name'
 export const siteTitle = 'Next.js Sample Website'
 
-export default function Layout({ children, home }) {
+function Layout({ children, home }) {
+    let imagen = "";
+    if(home === "home"){
+        imagen = "fondo_avion.jpg"
+    } else {
+        imagen = "fondo_isla.jpg"
+    }
     return (
         <div>
             <Head>
@@ -16,8 +21,12 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            {home ? "SI ES EL HOME" : "NO ES EL HOME"}
-            <main>{children}</main>
+            <main style={{
+                background: 'url('+imagen+') no-repeat center center fixed',
+                backgroundSize: 'cover'
+            }}>{children}</main>
         </div>
     )
 }
+
+export default Layout;

@@ -19,7 +19,7 @@ function Entry({ id, title, content }) {
   
   return (
     <div className="container pb-3">
-      <div className="py-2 px-2 mx-auto bg-dark shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      <div className="py-2 px-2 mx-auto bg-transparent shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
         <img className="block h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Woman's Face" />
         <div className="text-center space-y-2 sm:text-left">
           <div className="space-y-0.5">

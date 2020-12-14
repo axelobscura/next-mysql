@@ -59,7 +59,7 @@ export default function EntryForm() {
         />
       </div>
       <Button disabled={submitting} type="submit">
-        {submitting ? 'Creating ...' : 'Create'}
+        {submitting ? 'CREANDO ...' : 'CREAR'}
       </Button>
     </form>
   )

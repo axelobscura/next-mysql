@@ -6,20 +6,20 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 .navbar {
-  background-color: #222 !important;
-  box-shadow: 0 0 10px #000;
+  background: transparent;
+  background-color: transparent !important;
 }
 .elfooter {
-  background: #222;
+  background: rgba(0,0,0,0.8);
   color: #ffffff;
   font-weight: 100;
-  box-shadow: 0 0 10px #000;
 }
 .btn {
   border-radius: none !important;
 }
 .eljumbo {
-  background: #111;
+  background: transparent;
+  background-color: transparent !important;
   padding: 10px;
 }
 .eljumbo h1 {
@@ -28,7 +28,7 @@ body {
   color:#ffffff;
 }
 .entradas {
-  margin-bottom: 90px;
+  margin-bottom: 0px;
 }
 .text-3xl {
   color: #ffffff;
