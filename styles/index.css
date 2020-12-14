@@ -16,6 +16,7 @@ body {
   color: #012746;
   font-weight: 100;
   font-size: 0.7rem;
+  font-weight: bold;
 }
 .btn {
   border-radius: none !important;
@@ -31,7 +32,6 @@ body {
   font-size: 2rem;
   color:#012746;
 }
-
 .entradas {
   margin-bottom: 0px;
 }
@@ -50,9 +50,15 @@ a.bg-black {
   height: 100vh;
 }
 .categorias p {
-  font-size: 0.7rem;
-  padding: 10px;
+  font-size: 0.5rem;
+  padding: 5px;
   text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+}
+.categorias p:hover {
+  background: #012746;
+  color:#ffffff;
 }
 /* Start purging... */
 @tailwind components;

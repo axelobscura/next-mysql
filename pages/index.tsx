@@ -3,6 +3,7 @@ import Container from '@/components/container'
 import Jumbotronix from '@/components/jumbotron'
 import Layout from '@/components/layout'
 
+import Link from 'next/link'
 import { useCategorias } from '@/lib/swr-hooks'
 
 function IndexPage() {
@@ -17,11 +18,10 @@ function IndexPage() {
           <div className="d-flex categorias">
           {categorias ? categorias.map((e) => (
             <div key={e.id} className="py-2">
-              <p>{e.nombre}</p>
+              <Link href={`/entry/${e.id}`}><p>{e.nombre}</p></Link>
             </div>
           )) : "LOADING DATA"}
           </div>
-          
         </Container>
       </div>
     </Layout>

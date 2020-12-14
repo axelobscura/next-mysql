@@ -21,7 +21,7 @@ function Layout({ children, home }) {
     return (
         <div>
             <Head>
-                <title>AXEL OBSCURA SARZOTTI - FULL STACK DEVELOPER</title>
+                <title>AXEL LAURENT OBSCURA SARZOTTI - FULL STACK DEVELOPER</title>
                 <link rel="icon" type="image/png" href="favicon.png" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet"></link>
