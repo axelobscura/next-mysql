@@ -14,7 +14,7 @@ function EditEntryPage() {
     return (
       <Layout home="detalle">
         <Nav title={data.nombre} />
-        <Container className=" home">
+        <Container className={` home ${data.nombre}`}>
             <h1 className="font-bold text-3xl my-2">{data.nombre}</h1>
         </Container>
       </Layout>
