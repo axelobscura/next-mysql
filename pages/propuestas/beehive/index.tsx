@@ -92,8 +92,8 @@ function IndexPage() {
                     </tr>
                     <tr>
                       <td></td>
-                      <td className="text-center">20 Días Hábiles</td>
-                      <td className="text-center">$ 2,500.00 MXN</td>
+                      <td className="text-center">10 Días Hábiles</td>
+                      <td className="text-center">$ 2,000.00 MXN</td>
                     </tr>
                   </tbody>
                 </Table>
