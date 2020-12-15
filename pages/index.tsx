@@ -8,9 +8,7 @@ import Link from 'next/link'
 import { useCategorias } from '@/lib/swr-hooks'
 
 function IndexPage({stars}) {
-  const { categorias, isLoading } = useCategorias()
-  console.log("Las categos: " + JSON.stringify(categorias))
-  console.log("Las estrellas: " + JSON.stringify(stars))
+
   return (
     <Layout home="home">
       <div>
