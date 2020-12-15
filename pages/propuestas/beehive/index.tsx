@@ -63,7 +63,7 @@ function IndexPage() {
                 <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
-                      <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> IMPLEMENTACIÓN CRM</h2></th>
+                      <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> IMPLEMENTACIÓN CRM | bitrix24</h2></th>
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
