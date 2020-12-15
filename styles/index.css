@@ -84,6 +84,12 @@ a.bg-black {
   font-size: 1.3rem;
 }
 
+.beehive p {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
 ul.contenido {
   list-style: circle;
   padding: 10px;

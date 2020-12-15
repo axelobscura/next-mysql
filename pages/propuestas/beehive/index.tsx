@@ -16,7 +16,9 @@ function IndexPage() {
     <Layout home="beehive">
       <div>
         <Container className=" beehive">
+          <img src='../../logoM.png' alt="" title="" style={{ width: '200px', margin: 'auto', padding: '10px'}} />
           <h1><span className="lnr lnr-arrow-right"></span> PROPUESTA DE DESARROLLO</h1>
+          <p><span className="lnr lnr-arrow-right-circle"></span> PRESUPUESTO ESTIMADO DE DESARROLLO DE INTEGRACIÓN DE SERVICIOS DIGITALES (https://techno-solutions.net/).</p>
           <hr/>
           <div style={{ maxWidth: '90%', margin: 'auto', fontSize: '0.8rem', marginTop: '20px'}}>
             <Row>
@@ -28,8 +30,8 @@ function IndexPage() {
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
-                      <th>TIEMPO</th>
-                      <th>COSTO</th>
+                      <th className="text-center">TIEMPO</th>
+                      <th className="text-center">COSTO</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -67,8 +69,8 @@ function IndexPage() {
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
-                      <th>TIEMPO</th>
-                      <th>COSTO</th>
+                      <th className="text-center">TIEMPO</th>
+                      <th className="text-center">COSTO</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -90,8 +92,8 @@ function IndexPage() {
                     </tr>
                     <tr>
                       <td></td>
-                      <td className="text-center">15 Días Hábiles</td>
-                      <td className="text-center">$ 1,500.00 MXN</td>
+                      <td className="text-center">20 Días Hábiles</td>
+                      <td className="text-center">$ 2,500.00 MXN</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -107,8 +109,8 @@ function IndexPage() {
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
-                      <th>TIEMPO</th>
-                      <th>COSTO</th>
+                      <th className="text-center">TIEMPO</th>
+                      <th className="text-center">COSTO</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -140,8 +142,8 @@ function IndexPage() {
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
-                      <th>TIEMPO</th>
-                      <th>COSTO</th>
+                      <th className="text-center">TIEMPO</th>
+                      <th className="text-center">COSTO</th>
                     </tr>
                   </thead>
                   <tbody>
