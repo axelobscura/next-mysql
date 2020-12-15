@@ -159,7 +159,21 @@ function IndexPage() {
                     <tr>
                       <td>
                         <ul className="contenido">
-                          <li>Desarrollo de 3 propuestas de diseño/template responsiva adaptable a cualquier tamaño de dispositivo (teléfonos, Tabletas, Escritorio). Desarrollo con HTML5, bootstrap, flexbox, grid, HTML, CSS, Javascript, Jquery, etc...</li>
+                          <li>Integración de APIS de Google Analitycs y ADWords</li>
+                          <li>Configuración e implementación en platafoma de web de seguimientos puntuales</li>
+                          <li>Configuración de Auto-Tagging</li>
+                          <li>Configuración de reportes y periodicidad de reportes</li>
+                          <li>Configuración de tickets de remarketing</li>
+                          <li>Implementación de:
+                            <ul>
+                              <li>Keywords</li>
+                              <li>Bid</li>
+                              <li>Quality Score</li>
+                              <li>Ad Rank</li>
+                              <li>CPC (cost-per-click)</li>
+                              <li>Conversiones</li>
+                            </ul>
+                          </li>
                         </ul>
                       </td>
                       <td></td>
@@ -169,6 +183,35 @@ function IndexPage() {
                       <td></td>
                       <td className="text-center">15 Días Hábiles</td>
                       <td className="text-center">$ 1,500.00 MXN</td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                <Table striped bordered style={{ color: "#fff"}}>
+                  <thead>
+                    <tr>
+                      <th colSpan={4}><h2><span className="lnr lnr-arrow-right-circle"></span> PRECIO TOTAL</h2></th>
+                    </tr>
+                    <tr>
+                      <th></th>
+                      <th className="text-center">TIEMPO</th>
+                      <th className="text-center">COSTO</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td className="text-center">55 Días Hábiles</td>
+                      <td className="text-center">$ 7,500.00 MXN</td>
                     </tr>
                   </tbody>
                 </Table>
