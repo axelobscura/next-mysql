@@ -24,7 +24,7 @@ function IndexPage() {
                 <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
-                      <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> DISEÑO Y DESARROLLO WEB</h2></th>
+                      <th colSpan={4}><h2><span class="lnr lnr-arrow-right-circle"></span> DISEÑO Y DESARROLLO WEB</h2></th>
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
@@ -63,7 +63,7 @@ function IndexPage() {
                 <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
-                      <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> IMPLEMENTACIÓN CRM | bitrix24</h2></th>
+                      <th colSpan={4}><h2><span class="lnr lnr-arrow-right-circle"></span> IMPLEMENTACIÓN CRM | bitrix24</h2></th>
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
@@ -103,7 +103,7 @@ function IndexPage() {
                 <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
-                      <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> PARAMETRIZACIÓN DE MONDAY</h2></th>
+                      <th colSpan={4}><h2><span class="lnr lnr-arrow-right-circle"></span> PARAMETRIZACIÓN DE MONDAY</h2></th>
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
@@ -136,7 +136,7 @@ function IndexPage() {
                 <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
-                      <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> GOOGLE ANALITYCS / GOOGLE ADDS</h2></th>
+                      <th colSpan={4}><h2><span class="lnr lnr-arrow-right-circle"></span> GOOGLE ANALITYCS / GOOGLE ADDS</h2></th>
                     </tr>
                     <tr>
                       <th>ENTREGABLES</th>
