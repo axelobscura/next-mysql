@@ -25,6 +25,7 @@ function Layout({ children, home }) {
                 <link rel="icon" type="image/png" href="favicon.png" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet"></link>
+                <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"></link>
                 <meta name="description" content="Full Stack developer in México, over 17 years of experience developing all kind of platforms and applications." />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
