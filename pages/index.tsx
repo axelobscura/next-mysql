@@ -16,12 +16,11 @@ function IndexPage({stars}) {
         <Container className=" home">
           <Jumbotronix title="AXEL LAURENT OBSCURA SARZOTTI" />
           <div className="d-flex categorias">
-            {stars.map((e) => (
+            {stars ? stars.map((e) => (
               <div key={e.id} className="py-2">
                 <Link href={`/categoria/${e.id}`}><p>{e.nombre} <span className="lnr lnr-arrow-right"></span></p></Link>
               </div>
-            ))
-            }
+            )) : "CARGANDO LOS DATOS"}
           </div>
         </Container>
       </div>
@@ -30,7 +29,7 @@ function IndexPage({stars}) {
 }
 
 IndexPage.getInitialProps = async (ctx) => {
-  const res = await fetch('https://next-mysql-steel.vercel.app/api/get-categorias')
+  const res = await fetch('https://next-mysql.axosar.vercel.app//api/get-categorias')
   const json = await res.json()
   return { stars: json }
 }
