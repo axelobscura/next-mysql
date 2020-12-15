@@ -5,7 +5,7 @@ import Container from '@/components/container'
 import Nav from '@/components/nav'
 import Layout from '@/components/layout'
 
-export default function EditEntryPage() {
+function EditEntryPage() {
   const router = useRouter()
   const id = router.query.id?.toString()
   const { data } = useCategoria(id)
@@ -13,11 +13,9 @@ export default function EditEntryPage() {
   if (data) {
     return (
       <Layout home="detalle">
-        <Nav title="DETALLE" />
-        <Container>
-          <div className="container" style={{ boxShadow: '0 0 10px #dedede', height: '100vh' }}>
+        <Nav title={data.nombre} />
+        <Container className=" home">
             <h1 className="font-bold text-3xl my-2">{data.nombre}</h1>
-          </div>
         </Container>
       </Layout>
     )
@@ -35,3 +33,6 @@ export default function EditEntryPage() {
     )
   }
 }
+
+
+export default EditEntryPage;
