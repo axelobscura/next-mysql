@@ -21,7 +21,7 @@ function IndexPage() {
           <div style={{ maxWidth: '90%', margin: 'auto', fontSize: '0.8rem', marginTop: '20px'}}>
             <Row>
               <Col>
-                <Table striped bordered hover>
+                <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
                       <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> DISEÑO Y DESARROLLO WEB</h2></th>
@@ -60,7 +60,7 @@ function IndexPage() {
 
             <Row>
               <Col>
-                <Table striped bordered hover>
+                <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
                       <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> IMPLEMENTACIÓN CRM</h2></th>
@@ -93,7 +93,7 @@ function IndexPage() {
 
             <Row>
               <Col>
-                <Table striped bordered hover>
+                <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
                       <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> PARAMETRIZACIÓN DE MONDAY</h2></th>
@@ -126,7 +126,7 @@ function IndexPage() {
 
             <Row>
               <Col>
-                <Table striped bordered hover>
+                <Table striped bordered style={{ color: "#fff"}}>
                   <thead>
                     <tr>
                       <th colSpan="4"><h2><span class="lnr lnr-arrow-right-circle"></span> GOOGLE ANALITYCS / GOOGLE ADDS</h2></th>
