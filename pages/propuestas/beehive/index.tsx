@@ -117,7 +117,16 @@ function IndexPage() {
                     <tr>
                       <td>
                         <ul className="contenido">
-                          <li>Desarrollo de 3 propuestas de diseño/template responsiva adaptable a cualquier tamaño de dispositivo (teléfonos, Tabletas, Escritorio). Desarrollo con HTML5, bootstrap, flexbox, grid, HTML, CSS, Javascript, Jquery, etc...</li>
+                          <li>Configuración de cuentas y roles de usuario</li>
+                          <li>Configuración de tracker de tareas diarias</li>
+                          <li>Configuración de seguimientos de proyectos</li>
+                          <li>Configuración de seguimiento de pusntos de venta</li>
+                          <li>Configuración de planificación de ventos</li>
+                          <li>Configuración y seguimiento de campañas/leads en redes sociales</li>
+                          <li>Configuración de calendario de plan de trabajo</li>
+                          <li>Configuración de seguimiento de clientes</li>
+                          <li>Configuración de calendario de actividades semanales</li>
+                          <li>Configuración de pipeline de ventas</li>
                         </ul>
                       </td>
                       <td></td>
@@ -126,7 +135,7 @@ function IndexPage() {
                     <tr>
                       <td></td>
                       <td className="text-center">15 Días Hábiles</td>
-                      <td className="text-center">$ 1,500.00 MXN</td>
+                      <td className="text-center">$ 2,500.00 MXN</td>
                     </tr>
                   </tbody>
                 </Table>
