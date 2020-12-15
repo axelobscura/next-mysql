@@ -75,7 +75,14 @@ function IndexPage() {
                     <tr>
                       <td>
                         <ul className="contenido">
-                          <li>Desarrollo de 3 propuestas de diseño/template responsiva adaptable a cualquier tamaño de dispositivo (teléfonos, Tabletas, Escritorio). Desarrollo con HTML5, bootstrap, flexbox, grid, HTML, CSS, Javascript, Jquery, etc...</li>
+                          <li>Seguimiento de nombres, correos electrónicos y números de teléfono de clientes potenciales</li>
+                          <li>Concentra toda la información relevante sobre tus clientes en una base de datos.</li>
+                          <li>Optimizar el tiempo gracias a la automatización de procesos repetitivos.</li>
+                          <li>Facilita la gestión de estrategias de comunicación e interacción al integrar los datos de varias plataformas en un solo lugar.</li>
+                          <li>Potencia la capacidad de trabajo gracias a las herramientas adicionales que brinda a tus colaboradores.</li>
+                          <li>Te da una visión crítica sobre el estado de tu empresa, campañas y estrategias de comunicación. Dentro de sus funciones contempla la creación y entrega de análisis, reportes e informes.</li>
+                          <li>Facilita la creación y mejoramiento de nuevos perfiles de buyer persona.</li>
+                          <li>Mejora los criterios dentro de tu empresa para identificar nuevos leads y prospectos.</li>
                         </ul>
                       </td>
                       <td></td>
