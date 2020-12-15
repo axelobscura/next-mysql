@@ -8,8 +8,9 @@ export default function Jumbotronix({ title = 'Entries' }) {
         <Container>
           <h1>{title}</h1>
           <p>
-            FULL STACK DEVELOPER
+            SR. FULL STACK DEVELOPER
           </p>
+          <p><small>Senior Full Stack Developer with 17+ years of experience designing and developing backend architectures, decoupled and entier frontend web applications using HTML, CSS, JavaScript, JQuery, AJAX, JSON, XML, NodeJS, Express, PHP, MySQL, PosgressSQL, Angular, ReactJS, VueJS, NextJS, Ruby on Rails, Python, R, Mongo and much more...</small></p>
         </Container>
       </Jumbotron>
     </div>
