@@ -27,3 +27,7 @@ export function useCategorias() {
 export function useEntry(id: string) {
   return useSWR(`/api/get-entry?id=${id}`, fetcher)
 }
+
+export function useCategoria(id: string) {
+  return useSWR(`/api/get-categoria?id=${id}`, fetcher)
+}

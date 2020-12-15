@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="container-fluid mx-auto fixed bottom-0 right-0 left-0 flex flex-column justify-center items-center h-20 elfooter">
       <p>axosar@gmail.com</p>
-      <p>®2020 APP DEVELOPMENT FROM AXEL LAURENT OBSCURA SARZOTTI - TODOS LOS DERECHOS RESERVADOS.</p>
+      <p>®2004 - 2021 APP DEVELOPMENT FROM AXEL LAURENT OBSCURA SARZOTTI - TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
   )
 }

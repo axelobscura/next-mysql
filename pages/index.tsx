@@ -18,7 +18,7 @@ function IndexPage({stars}) {
           <div className="d-flex categorias">
             {stars.map((e) => (
               <div key={e.id} className="py-2">
-                <Link href={`/entry/${e.id}`}><p>{e.nombre} <span className="lnr lnr-arrow-right"></span></p></Link>
+                <Link href={`/categoria/${e.id}`}><p>{e.nombre} <span className="lnr lnr-arrow-right"></span></p></Link>
               </div>
             ))
             }
