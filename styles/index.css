@@ -102,6 +102,7 @@ ul.contenido {
 .home.PERSONAL.SUMMARY {
   justify-content: inherit;
   padding-top: 70px;
+  background: #ff0000;
 }
 
 /* Start purging... */
