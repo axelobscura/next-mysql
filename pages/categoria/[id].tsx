@@ -5,12 +5,11 @@ import Container from '@/components/container'
 import Nav from '@/components/nav'
 import Layout from '@/components/layout'
 
-
-
 function EditEntryPage({props}) {
   const router = useRouter()
   const id = router.query.id?.toString()
   const { data } = useCategoria(id)
+  
   console.log(props);
   if (data) {
     return (

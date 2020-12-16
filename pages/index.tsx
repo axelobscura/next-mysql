@@ -29,7 +29,7 @@ function IndexPage({stars}) {
 }
 
 IndexPage.getInitialProps = async (ctx) => {
-  const res = await fetch('https://next-mysql.axosar.vercel.app//api/get-categorias')
+  const res = await fetch('https://next-mysql.axosar.vercel.app/api/get-categorias')
   const json = await res.json()
   return { stars: json }
 }
