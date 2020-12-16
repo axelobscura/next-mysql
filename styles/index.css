@@ -98,6 +98,12 @@ ul.contenido {
   padding: 10px;
   text-align: justify;
 }
+
+.home.PERSONAL.SUMMARY {
+  justify-content: inherit;
+  padding-top: 70px;
+}
+
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
