@@ -6,11 +6,7 @@ import Container from '@/components/container'
 import Jumbotronix from '@/components/jumbotron'
 import Layout from '@/components/layout'
 
-import { useCategorias } from '@/lib/swr-hooks'
-
 import Link from 'next/link'
-
-
 
 function IndexPage({users}) {
   return (
