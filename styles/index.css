@@ -58,11 +58,10 @@ a.bg-black {
   transition: all 1s;
   padding-top: 12px;
   margin-right: 3px;
-  border-radius: 10px;
 }
 .categorias p:hover {
   background: #f6df51;
-  columns: #333333;;
+  color: #737373;
 }
 .navbar a.font-light {
   font-size: 0.8rem;
@@ -70,10 +69,12 @@ a.bg-black {
   border-right: 1px solid #ffffff;
   transition: all 1s;
 }
+
 .navbar a.font-light:hover {
   color: #012746;
   text-decoration: none;
 }
+
 .beehive {
   background: rgb(106,132,159);
   background: linear-gradient(162deg, rgba(106,132,159,1) 14%, rgba(18,25,28,1) 86%);
@@ -104,7 +105,9 @@ ul.contenido {
   padding-top: 70px;
   background: #012746;
 }
-
+p.intro {
+  color: #737373;
+}
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
