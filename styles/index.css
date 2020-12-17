@@ -112,6 +112,14 @@ ul.contenido {
 p.intro {
   color: #737373;
 }
+.bg-black.entradas {
+  background-color: #012746 !important;
+  color: #ffffff;
+  font-size: 0.5rem;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+}
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */

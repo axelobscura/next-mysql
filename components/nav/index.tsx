@@ -20,7 +20,7 @@ function Nav({ title = '', home = "entradas" }) {
             <a className="font-light text-3xl">{title}</a>
           </Link>
         </Navbar.Collapse>
-        <ButtonLink href="/new" className="bg-white">{home ? ("AGREGAR ENTRADA") : ("NUEVA ENTRADA")}</ButtonLink>
+        <ButtonLink href="/new" className="bg-dark entradas">{home ? ("AGREGAR ENTRADA") : ("NUEVA ENTRADA")}</ButtonLink>
       </Navbar>
     </Container>
   )
