@@ -105,6 +105,10 @@ ul.contenido {
   padding-top: 70px;
   background: #012746;
 }
+.home.PERSONAL.SUMMARY h1, .home.PERSONAL.SUMMARY p {
+  width: 100%;
+  padding: 10px 90px;
+}
 p.intro {
   color: #737373;
 }
