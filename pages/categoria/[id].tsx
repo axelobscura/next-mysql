@@ -1,18 +1,14 @@
-import { useRouter } from 'next/router'
-
-import { useCategoria } from '@/lib/swr-hooks'
+import fetch from 'isomorphic-unfetch'
+import absoluteUrl from 'next-absolute-url'
 import Container from '@/components/container'
 import Nav from '@/components/nav'
 import Layout from '@/components/layout'
 
-function EditEntryPage({props}) {
-  const router = useRouter()
-  const id = router.query.id?.toString()
-  const { data } = useCategoria(id)
-  console.log(props);
-  if (data) {
+function EditEntryPage({users}) {
+  console.log(users);
+  if (users) {
     let texto = "";
-    if(data.nombre === "PERSONAL SUMMARY"){
+    if(users.nombre === "PERSONAL SUMMARY"){
       texto = "el intro";
     } else {
       texto = "No es....";
@@ -20,9 +16,9 @@ function EditEntryPage({props}) {
     return (
 
       <Layout home="detalle">
-        <Nav title={data.nombre} />
-        <Container className={` home ${data.nombre}`}>
-            <h1 className="font-bold text-3xl my-2">{data.nombre}</h1>
+        <Nav title={users.nombre} />
+        <Container className={` home ${users.nombre}`}>
+            <h1 className="font-bold text-3xl my-2">{users.nombre}</h1>
             <p style={{ color: "#fff"}}>{texto}</p>
         </Container>
       </Layout>
@@ -40,6 +36,17 @@ function EditEntryPage({props}) {
       </Layout>
     )
   }
+}
+
+EditEntryPage.getInitialProps = async ({req, res, query}) => {
+  const fetchRelative = path => {
+    const {origin} = absoluteUrl(req, 'localhost:3000');
+    return fetch(`${origin}${path}`);
+  }
+  const { id } = query
+  const resp = await fetchRelative(`/api/get-categoria?id=${id}`);
+  const users = await resp.json();
+  return {users}
 }
 
 export default EditEntryPage;
