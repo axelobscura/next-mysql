@@ -110,6 +110,12 @@ ul.contenido {
   width: 100%;
   padding: 10px 90px;
 }
+.home.PROFESSIONAL.SUMMARY {
+  justify-content: inherit;
+  padding-top: 70px;
+  background: rgb(96,96,96);
+  background: linear-gradient(157deg, rgba(96,96,96,1) 14%, rgba(23,23,23,1) 86%);
+}
 p.intro {
   color: #737373;
 }
