@@ -14,7 +14,7 @@ function IndexPage({users}) {
       <div>
         <Nav />
         <Container className=" home">
-          <Jumbotronix title="AXEL LAURENT OBSCURA SARZOTTI" />
+          <Jumbotronix title="M.A.V. AXEL LAURENT OBSCURA SARZOTTI" />
           <div className="d-flex categorias">
             {users.map((e) => (
               <div key={e.id} className="py-2">
