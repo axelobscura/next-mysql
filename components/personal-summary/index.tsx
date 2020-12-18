@@ -7,10 +7,10 @@ function PersonalSummary({datos}) {
       <p><b>Senior Full Stack Web Developer with 17+ years of experience</b> designing and developing <b>Backend</b> architectures, decoupled and n-tier <b>Frontend</b> web applications using HTML, CSS, JavaScript, JQuery, AJAX, JSON, XML, NodeJS, Express, PHP, MySQL, PosgressSQL,  Angular, ReactJS, VueJS, NextJS… </p>
       <ul>
         <li>Great experience in the IT industry building Web Based Applications and Single Page Applications <b>Frontend/Backend</b></li>
-        <li>Extensive experience in developing Web based applications (Single Page Apps) and <b>Client/Server applications</b> using HTML5, CSS, <b>JavaScript</b>, <b>Angular</b>, <b>React.JS</b>, <b>Vue.JS</b>, Jquery, AJAX, JSON, XML, <b>Node.JS</b>, Express, PHP, <b>D3.JS</b>, Flex, MySQL, MongoDB</li>
+        <li>Extensive experience in developing Web based applications (Single Page Apps) and <b>Client/Server applications</b> using <b>HTML</b>, <b>CSS</b>, <b>JAVASCRIPT</b>, <b>Angular</b>, <b>React.JS</b>, <b>Vue.JS</b>, Jquery, AJAX, <b>PHP</b>, <b>PYTHON</b>, <b>JAVA</b>, <b>R</b>, <b>JSON</b>, XML, <b>Node.JS</b>, <b>Express.JS</b>, PHP, <b>D3.JS</b>, Flex, MySQL, MongoDB</li>
         <li>Developed, Configured and Deployed <b>fault-tolerant</b>, scalable websites using <b>AWS - Azure</b></li>
         <li>Experience in using <b>Bootstrap, Material Design, Grid, Flex, Skeleton, Styled Components</b> for layouts, forms, buttons in the application</li>
-        <li>Great experience using CSS processors <b>SASS, LESS</b></li>
+        <li>Great experience using <b>CSS</b> processors <b>SASS, LESS</b></li>
         <li>Experience with designing and developing <b>REST API's</b> using <b>NODE, EXPRESS, SQL, POSTGRESS, MONGODB, JSON</b></li>
         <li>Great experience with NodeJS, and Extensive experience with <b>JAMStack-Object Oriented JavaScript</b> and ES6/9 Standard</li>
         <li>Actively took part in all the phases of the <b>development life-cycle including design, architecture, implementation, release, unit testing, refactoring and maintenance</b></li>
