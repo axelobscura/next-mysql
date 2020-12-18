@@ -103,7 +103,8 @@ ul.contenido {
 .home.PERSONAL.SUMMARY {
   justify-content: inherit;
   padding-top: 70px;
-  background: #012746;
+  background: rgb(1,39,70);
+  background: linear-gradient(347deg, rgba(1,39,70,1) 14%, rgba(13,101,173,1) 86%);
 }
 .home.PERSONAL.SUMMARY h1, .home.PERSONAL.SUMMARY p {
   width: 100%;
