@@ -11,7 +11,7 @@ function PersonalSummary({datos}) {
         <li>Developed, Configured and Deployed <b>fault-tolerant</b>, scalable websites using <b>AWS - Azure</b></li>
         <li>Experience in using <b>Bootstrap, Material Design, Grid, Flex, Skeleton, Styled Components</b> for layouts, forms, buttons in the application</li>
         <li>Great experience using <b>CSS</b> processors <b>SASS, LESS</b></li>
-        <li>Experience with designing and developing <b>REST API's</b> using <b>NODE, EXPRESS, SQL, POSTGRESS, MONGODB, JSON</b></li>
+        <li>Experience with designing and developing <b>REST API's</b> using <b>Node.js, Express.js, PHP, SQL, POSTGRESS, MONGODB, JSON</b></li>
         <li>Great experience with NodeJS, and Extensive experience with <b>JAMStack-Object Oriented JavaScript</b> and ES6/9 Standard</li>
         <li>Actively took part in all the phases of the <b>development life-cycle including design, architecture, implementation, release, unit testing, refactoring and maintenance</b></li>
         <li><b>Heavy use of GIT, GITLAB</b> for version control</li>
@@ -21,7 +21,7 @@ function PersonalSummary({datos}) {
         <li>Experience in documentation using <b>MS tools</b> (Word, Excel, PPT, Project and Access)</li>
         <li><b>Expert</b> in creating <b>Templates, Mockups and Prototypes, Web Interfaces, Layouts and Flow of future pages</b></li>
         <li>Experience in Manual and Automated <b>testing</b> of software applications</li>
-        <li><b>Good team player</b> with <b>excellent communication</b> skills and Ability to <b>learn and adapt</b> quickly to <b>EMERGING TECHNOLOGIES...</b></li>
+        <li><b>Good team player</b> with <b>Excellent Communication</b> skills and Ability to <b>Learn and Adapt</b> quickly to <b>EMERGING TECHNOLOGIES...</b></li>
       </ul>
     </Container>
   )

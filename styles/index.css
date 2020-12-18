@@ -120,6 +120,7 @@ ul.contenido {
   color: #ffffff;
   font-weight: 100;
   list-style: circle;
+  text-align: justify;
 }
 .home.PROFESSIONAL.SUMMARY {
   justify-content: inherit;
