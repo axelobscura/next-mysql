@@ -11,7 +11,7 @@ function Nav({ title = '', home = "entradas" }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Link href="/">
-            <a className="font-light text-3xl">HOME</a>
+            <a className="font-light text-3xl"><span className="lnr lnr-home"></span></a>
           </Link>
           {/* 
           <Link href="/entradas">
