@@ -5,6 +5,7 @@ import Nav from '@/components/nav'
 import Container from '@/components/container'
 import Jumbotronix from '@/components/jumbotron'
 import Layout from '@/components/layout'
+import Devicons from '@/components/devicons'
 
 import Link from 'next/link'
 
@@ -15,6 +16,7 @@ function IndexPage({users}) {
         <Nav />
         <Container className=" home">
           <Jumbotronix title="M.A.V. AXEL LAURENT OBSCURA SARZOTTI" />
+          <Devicons />
           <div className="d-flex categorias">
             {users.map((e) => (
               <div key={e.id} className="py-2">

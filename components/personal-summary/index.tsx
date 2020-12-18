@@ -1,10 +1,12 @@
 import Container from '@/components/container'
+import Devicons from '@/components/devicons'
 
 function PersonalSummary({datos}) {
   return (
     <Container className={` home ${datos.nombre}`}>
       <h1 style={{ color: "#fff"}}><span className="lnr lnr-chevron-right"></span> {datos.nombre}</h1>
       <p><b>Senior Full Stack Developer with 17+ years of Experience</b> Designing and Developing <b>Backend</b> architectures, decoupled and entier <b>Frontend</b> web applications using <b>HTML, CSS, JavaScript, Typescript, React.JS, React.Native, Angular.JS, Vue.JS, Next.JS, JQuery, AJAX, JSON, XML, Node.JS, Express.JS, PHP, MySQL, PostgressSQL…</b> </p>
+      <Devicons />
       <ul>
         <li>Great experience in the IT industry building Web Based Applications and Single Page Applications <b>Frontend/Backend</b></li>
         <li>Extensive experience in developing Web based applications (Single Page Apps) and <b>Client/Server applications</b> using <b>HTML</b>, <b>CSS</b>, <b>JAVASCRIPT</b>, <b>Angular</b>, <b>React.JS</b>, <b>Vue.JS</b>, Jquery, AJAX, <b>PHP</b>, <b>PYTHON</b>, <b>JAVA</b>, <b>R</b>, <b>JSON</b>, XML, <b>Node.JS</b>, <b>Express.JS</b>, PHP, <b>D3.JS</b>, Flex, MySQL, MongoDB</li>
