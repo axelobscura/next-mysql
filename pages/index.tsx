@@ -18,7 +18,7 @@ function IndexPage({users}) {
           <div className="d-flex categorias">
             {users.map((e) => (
               <div key={e.id} className="py-2">
-                <Link href={`/categoria/${e.id}`}><p>{e.nombre} <span className="lnr lnr-arrow-right"></span></p></Link>
+                <Link href={`/category/${e.ref}`}><p>{e.nombre} <span className="lnr lnr-arrow-right"></span></p></Link>
               </div>
             ))}
           </div>
@@ -37,6 +37,5 @@ IndexPage.getInitialProps = async ({req, res}) => {
   const users = await resp.json();
   return {users}
 }
-
 
 export default IndexPage;

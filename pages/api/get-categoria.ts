@@ -2,21 +2,18 @@ import { NextApiHandler } from 'next'
 import { query } from '../../lib/db'
 
 const handler: NextApiHandler = async (req, res) => {
-  const { id } = req.query
+  const { ref } = req.query
   try {
-    if (!id) {
-      return res.status(400).json({ message: '`id` required' })
-    }
-    if (typeof parseInt(id.toString()) !== 'number') {
-      return res.status(400).json({ message: '`id` must be a number' })
+    if (!ref) {
+      return res.status(400).json({ message: '`ref` required' })
     }
     const results = await query(
       `
-      SELECT id, nombre
+      SELECT id, nombre, ref
       FROM categorias
-      WHERE id = ?
+      WHERE ref = ?
     `,
-      id
+      ref
     )
 
     return res.json(results[0])
