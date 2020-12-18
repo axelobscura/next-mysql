@@ -11,16 +11,20 @@ function Nav({ title = '', home = "entradas" }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Link href="/">
-            <a className="font-light text-3xl">INICIO</a>
+            <a className="font-light text-3xl">HOME</a>
           </Link>
+          {/* 
           <Link href="/entradas">
             <a className="font-light text-3xl">ENTRADAS</a>
           </Link>
+          */}
           <Link href="/">
             <a className="font-light text-3xl">{title}</a>
           </Link>
         </Navbar.Collapse>
+        {/* 
         <ButtonLink href="/new" className="bg-dark entradas">{home ? ("AGREGAR ENTRADA") : ("NUEVA ENTRADA")}</ButtonLink>
+        */}
       </Navbar>
     </Container>
   )
