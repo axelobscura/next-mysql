@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar'
 function Nav({ title = '', home = "entradas" }) {
   return (
     <Container>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" sticky="top">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Link href="/">
