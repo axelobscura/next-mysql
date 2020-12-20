@@ -13,7 +13,8 @@ function Layout({ children, home }) {
         }
     } else if(home === "PROFESSIONAL SUMMARY") {
         estilo = {
-            background: 'url(/fondo_map.jpg) no-repeat center center fixed',
+            //background: 'url(/fondo_map.jpg) no-repeat center center fixed',
+            background: '#111111',
             backgroundSize: 'cover',
             height: '100vh'
         }
