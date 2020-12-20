@@ -11,7 +11,9 @@ function EditEntryPage({users}) {
       <Layout home="detalle">
         <Nav title={users.nombre} />
         <Container>
+          {users.nombre === "PERSONAL SUMMARY" ? 
           <PersonalSummary datos={users} />
+          : ""}
         </Container>
       </Layout>
     )
