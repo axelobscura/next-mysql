@@ -122,26 +122,24 @@ ul.contenido {
   list-style: circle;
   text-align: justify;
 }
-.home.PROFESSIONAL.SUMMARY {
-  justify-content: inherit;
-  padding-top: 70px;
-  background: rgb(255,192,0);
-  background: linear-gradient(326deg, rgba(255,192,0,1) 0%, rgba(255,218,0,1) 100%);
-}
+
 .home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
   width: 100%;
   padding: 10px 90px;
-  color: #111111;
+  color: #ffffff;
 }
 .home.PROFESSIONAL.SUMMARY h1 {
   font-size: 2rem;
   font-weight: bold;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #f2f2f2;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 .home.PROFESSIONAL.SUMMARY h2 {
   font-weight: bold;
+  color: #f2f2f2;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
 p.intro {
   color: #737373;
