@@ -18,6 +18,21 @@ function Layout({ children, home }) {
             backgroundSize: 'cover',
             height: '100vh'
         }
+    } else if(home === "TECHNICAL SUMMARY") {
+        estilo = {
+            //background: 'url(/fondo_map.jpg) no-repeat center center fixed',
+            background: '#555',
+            backgroundSize: 'cover',
+            height: '100vh'
+        }
+    } else if(home === "EDUCATION") {
+        estilo = {
+            //background: 'url(/fondo_map.jpg) no-repeat center center fixed',
+            background: 'rgb(255,192,0)',
+            backgroundColor: 'linear-gradient(326deg, rgba(255,192,0,1) 0%, rgba(255,218,0,1) 100%)',
+            backgroundSize: 'cover',
+            height: '100vh'
+        }
     } else {
         estilo = {
             background: 'url(fondo_isla.jpg) no-repeat center center fixed',
