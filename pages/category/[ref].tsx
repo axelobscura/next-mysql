@@ -9,7 +9,9 @@ import ProfessionalSummary from '@/components/professional-summary'
 function EditEntryPage({users}) {
   if (users) {
     return (
-      <Layout home="detalle">
+      <Layout 
+        home={users.nombre}
+      >
         <Nav title={users.nombre} />
         <Container>
           {users.nombre === "PERSONAL SUMMARY" ? 

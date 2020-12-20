@@ -133,6 +133,16 @@ ul.contenido {
   padding: 10px 90px;
   color: #111111;
 }
+.home.PROFESSIONAL.SUMMARY h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.home.PROFESSIONAL.SUMMARY h2 {
+  font-weight: bold;
+}
 p.intro {
   color: #737373;
 }

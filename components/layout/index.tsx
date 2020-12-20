@@ -11,6 +11,12 @@ function Layout({ children, home }) {
             backgroundSize: 'cover',
             height: '100vh',
         }
+    } else if(home === "PROFESSIONAL SUMMARY") {
+        estilo = {
+            background: 'url(fondo_map.jpg) no-repeat center center fixed',
+            backgroundSize: 'cover',
+            height: '100vh'
+        }
     } else {
         estilo = {
             background: 'url(fondo_isla.jpg) no-repeat center center fixed',
