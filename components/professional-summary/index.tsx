@@ -7,12 +7,12 @@ function ProfessionalSummary({datos}) {
   return (
     <Container className={` home ${datos.nombre}`}>
       <h1><span className="lnr lnr-chevron-right"></span> {datos.nombre}</h1>
-      <hr/>
+      <hr/>  
       <Devicons />
       <hr/>
       <Row>
         <Col md={6}>
-
+            <p className="text-justify pt-3">Senior Full Stack Web Developer with 15 years of experience designing and developing backend architectures, decoupled and n-tier frontend web applications using HTML, CSS, JavaScript, JQuery, AJAX, JSON, XML, NodeJS, Express, PHP, MySQL, PosgressSQL, Angular, ReactJS, VueJS, NextJS...</p>
         </Col>
         <Col md={6}>
 
