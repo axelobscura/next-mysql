@@ -7,6 +7,7 @@ function ProfessionalSummary({datos}) {
   return (
     <Container className={` home ${datos.nombre}`}>
       <h1><span className="lnr lnr-chevron-right"></span> {datos.nombre}</h1>
+      <hr/>
       <Devicons />
       <hr/>
       <Row>
