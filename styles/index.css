@@ -125,8 +125,13 @@ ul.contenido {
 .home.PROFESSIONAL.SUMMARY {
   justify-content: inherit;
   padding-top: 70px;
-  background: rgb(96,96,96);
-  background: linear-gradient(157deg, rgba(96,96,96,1) 14%, rgba(23,23,23,1) 86%);
+  background: rgb(255,192,0);
+  background: linear-gradient(326deg, rgba(255,192,0,1) 0%, rgba(255,218,0,1) 100%);
+}
+.home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
+  width: 100%;
+  padding: 10px 90px;
+  color: #111111;
 }
 p.intro {
   color: #737373;
