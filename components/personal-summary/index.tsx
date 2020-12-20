@@ -26,7 +26,7 @@ function PersonalSummary({datos}) {
         </Col>
         <Col md={6}>
           <ul style={{ paddingRight: '100px', marginTop: '30px'}}>
-            <li>Actively took part in all the phases of the <b>development life-cycle including design, architecture, implementation, release, unit testing, refactoring and maintenance</b></li>
+            <li><b>Actively took part in all the phases</b> of the <b>development life-cycle including design, architecture, implementation, release, unit testing, refactoring and maintenance</b></li>
             <li>Knowledge and experience on installation and configuration of <b>WordPress, MySQL, PHP, and WordPress plugins, Joomla, Drupal, Magento, Woocommerce</b></li>
             <li>Experience working extensively on both <b>LYNUX, MAC and Windows</b> based Environments</li>
             <li>Extensive experience using <b>Adobe Design Tools</b> (Photoshop, Illustrator, Indesign, Premiere, After-efects)</li>
