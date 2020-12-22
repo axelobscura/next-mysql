@@ -125,8 +125,9 @@ ul.contenido {
 
 .home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
   width: 100%;
-  padding: 10px 90px;
+  padding: 10px;
   color: #ffffff;
+  font-size: 0.7rem;
 }
 .home.PROFESSIONAL.SUMMARY h1 {
   font-size: 2rem;
@@ -141,6 +142,7 @@ ul.contenido {
   font-size: 1.3rem;
   text-transform: uppercase;
 }
+
 p.intro {
   color: #737373;
 }
@@ -156,6 +158,16 @@ p.intro {
   color: #ffffff;
   font-size: 1.5rem;
   margin: 10px 5px;
+}
+@media all and (max-width: 1900px) {
+  .home.PROFESSIONAL.SUMMARY h2 {
+    font-size: 1rem;
+  }
+  .devicons {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 10px 5px;
+  }
 }
 /* Start purging... */
 @tailwind components;

@@ -5,15 +5,14 @@ import Col from 'react-bootstrap/Col'
 
 function ProfessionalSummary({datos}) {
   return (
-    <Container className={` home ${datos.nombre} p-0 m-0`}>
+    <Container className={` home ${datos.nombre}`}>
       <h1><span className="lnr lnr-chevron-right"></span> {datos.nombre}</h1>
       <Devicons />
       <Row>
-        <Col md={6} className="p-0">
+        <Col>
             <p className="text-justify pt-3">Senior Full Stack Web Developer with 15 years of experience designing and developing backend architectures, decoupled and n-tier frontend web applications using HTML, CSS, JavaScript, JQuery, AJAX, JSON, XML, NodeJS, Express, PHP, MySQL, PosgressSQL, Angular, ReactJS, VueJS, NextJS...</p>
         </Col>
-        <Col md={6} className="p-0">
-            <h2 className="pt-3"><span className="lnr lnr-chevron-right"></span> WEB TECHNOLOGIES</h2>
+        <Col>
             <p>HTML, HTML 5, XHTML, XML, JavaScript, AJAX, JQuery, CSS, UI Concept Modeling/Wire framing, Angular, Cascading Style Sheets (CSS), jQuery, JSON, Bootstrap, WordPress, PHP, Cake, Zend, Angular JS, React JS, Vue JS, Require JS, Extend JS, Node JS, DHTML, AWS, Azure</p>
             <h2><span className="lnr lnr-chevron-right"></span> JavaScript Lib/Framework</h2>
             <p>Angular JS, React JS, NodeJs, VueJs, ExpressJs, Redux, D3</p>
