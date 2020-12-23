@@ -147,6 +147,8 @@ ul.contenido {
 
 p.intro {
   color: #737373;
+  font-weight: 100;
+  font-size: 1.5rem;
 }
 .bg-black.entradas {
   background-color: #012746 !important;
