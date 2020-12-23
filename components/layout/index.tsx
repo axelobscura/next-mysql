@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Footer from '@/components/footer'
 const name = 'Your Name'
 export const siteTitle = 'Next.js Sample Website'
 
@@ -53,6 +53,7 @@ function Layout({ children, home }) {
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"></link>
             </Head>
             <main style={estilo}>{children}</main>
+            <Footer estilo={home} />
         </div>
     )
 }
