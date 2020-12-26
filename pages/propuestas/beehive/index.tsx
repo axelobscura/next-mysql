@@ -31,7 +31,7 @@ function IndexPage() {
                     <tr>
                       <th>ENTREGABLES</th>
                       <th className="text-center">TIEMPO</th>
-                      <th className="text-center">COSTO</th>
+                      <th className="text-center">COSTO:</th>
                     </tr>
                   </thead>
                   <tbody>
