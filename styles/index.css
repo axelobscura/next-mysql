@@ -125,8 +125,9 @@ ul.contenido {
   text-align: justify;
 }
 .home.PROFESSIONAL.SUMMARY {
-  padding: 0 90px;
+  padding: 50px 90px;
   width: 70%;
+  justify-content: start;
 }
 .home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
   width: 100%;
