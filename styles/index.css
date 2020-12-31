@@ -126,6 +126,7 @@ ul.contenido {
 }
 .home.PROFESSIONAL.SUMMARY {
   padding: 0 90px;
+  width: 70%;
 }
 .home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
   width: 100%;
