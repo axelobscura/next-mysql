@@ -124,7 +124,9 @@ ul.contenido {
   list-style: circle;
   text-align: justify;
 }
-
+.home.PROFESSIONAL.SUMMARY {
+  padding: 0 90px;
+}
 .home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
   width: 100%;
   padding: 10px;
