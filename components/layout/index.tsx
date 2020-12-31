@@ -21,7 +21,7 @@ function Layout({ children, home }) {
     } else if(home === "TECHNICAL SUMMARY") {
         estilo = {
             //background: 'url(/fondo_map.jpg) no-repeat center center fixed',
-            background: '#555',
+            background: 'linear-gradient(90deg, #1CB5E0 0%, #000851 100%)',
             backgroundSize: 'cover',
             height: '100vh'
         }
