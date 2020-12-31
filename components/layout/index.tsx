@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Footer from '@/components/footer'
 const name = 'Your Name'
 export const siteTitle = 'Next.js Sample Website'
 
@@ -13,8 +13,7 @@ function Layout({ children, home }) {
         }
     } else if(home === "PROFESSIONAL SUMMARY") {
         estilo = {
-            //background: 'url(/fondo_map.jpg) no-repeat center center fixed',
-            background: '#111111',
+            background: 'url(/fondo_code.jpg) no-repeat center center fixed',
             backgroundSize: 'cover',
             height: '100vh'
         }
@@ -54,6 +53,7 @@ function Layout({ children, home }) {
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"></link>
             </Head>
             <main style={estilo}>{children}</main>
+            <Footer estilo={home} />
         </div>
     )
 }
