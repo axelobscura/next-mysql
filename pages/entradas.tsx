@@ -38,6 +38,7 @@ function Entradas() {
         <Container>
           <Jumbotronix title="PRUEBA DE APIS" />
           <Entries entries={entries} />
+          <p>test</p>
         </Container>
       </div>
     </Layout>
