@@ -6,6 +6,7 @@ import Layout from '@/components/layout'
 import PersonalSummary from '@/components/personal-summary'
 import ProfessionalSummary from '@/components/professional-summary'
 import ProfessionalExperience from '@/components/professional-experience'
+import Education from '@/components/education'
 
 function EditEntryPage({users, usersDos}) {
   if (users) {
@@ -21,6 +22,8 @@ function EditEntryPage({users, usersDos}) {
             <ProfessionalSummary datos={users} />
           : users.nombre === "PROFESSIONAL EXPERIENCE" ?
             <ProfessionalExperience datos={users} />
+            : users.nombre === "EDUCATION" ?
+            <Education datos={users} />
           : ""}
         </Container>
       </Layout>
