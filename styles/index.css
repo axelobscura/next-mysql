@@ -47,9 +47,10 @@ a.bg-black {
 .container-fluid.home {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
+  padding-top: 50px;
 }
 .categorias p {
   font-size: 0.5rem;
