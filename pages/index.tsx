@@ -13,7 +13,7 @@ function IndexPage({users}) {
   return (
     <Layout home="home">
       <div>
-        <Nav />
+        <Nav secciones={users} />
         <Container className=" home">
           <Jumbotronix title="M.A.V. AXEL LAURENT OBSCURA SARZOTTI" />
           <Devicons />

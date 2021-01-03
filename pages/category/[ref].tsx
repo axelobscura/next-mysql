@@ -7,13 +7,13 @@ import PersonalSummary from '@/components/personal-summary'
 import ProfessionalSummary from '@/components/professional-summary'
 import ProfessionalExperience from '@/components/professional-experience'
 
-function EditEntryPage({users}) {
+function EditEntryPage({users, usersDos}) {
   if (users) {
     return (
       <Layout 
         home={users.nombre}
       >
-        <Nav title={users.nombre} />
+        <Nav secciones={usersDos} title={users.nombre} />
         <Container>
           {users.nombre === "PERSONAL SUMMARY" ? 
             <PersonalSummary datos={users} />
@@ -28,7 +28,7 @@ function EditEntryPage({users}) {
   } else {
     return (
       <Layout home="detalle">
-        <Nav title="DETALLE" />
+        <Nav secciones={usersDos} title="DETALLE" />
         <Container>
           <div className="container">
             <h1 className="font-bold text-3xl my-2">...</h1>
@@ -48,7 +48,9 @@ EditEntryPage.getInitialProps = async ({req, res, query}) => {
   const { ref } = query
   const resp = await fetchRelative(`/api/get-categoria?ref=${ref}`);
   const users = await resp.json();
-  return {users}
+  const respDos = await fetchRelative(`/api/get-categorias`);
+  const usersDos = await respDos.json();
+  return {users, usersDos}
 }
 
 export default EditEntryPage;
