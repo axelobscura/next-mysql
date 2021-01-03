@@ -66,7 +66,7 @@ a.bg-black {
   color: #737373;
 }
 .navbar a.font-light {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   padding: 2px 10px;
   border-right: 1px solid #ffffff;
   transition: all 1s;
@@ -124,10 +124,7 @@ ul.contenido {
   list-style: circle;
   text-align: justify;
 }
-.home.PROFESSIONAL.SUMMARY {
-  padding: 50px 90px;
-  width: 70%;
-}
+
 .home.PROFESSIONAL.SUMMARY h1, .home.PROFESSIONAL.SUMMARY p {
   width: 100%;
   padding: 10px;
