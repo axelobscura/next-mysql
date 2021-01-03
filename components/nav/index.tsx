@@ -15,7 +15,12 @@ function Nav({ title = '', home = "entradas", secciones }) {
           </Link>
           {secciones ? secciones.map((e) => (
               <Link key={e.id} href={`/category/${e.ref}`}>
-                <a className="font-light text-3xl" style={{ color: '#333' }}><span className="lnr lnr-arrow-right"></span> {e.nombre}</a>
+                <a className="font-light text-3xl"  style={{
+                  color: title === e.nombre ? '#333' : '#fff',
+                  fontWeight: title === e.nombre ? '900' : '100',
+                }}>
+                  <span className="lnr lnr-arrow-right"></span> {e.nombre}
+                  </a>
               </Link>
           )) : ""}
           {/* 
@@ -23,9 +28,6 @@ function Nav({ title = '', home = "entradas", secciones }) {
             <a className="font-light text-3xl">ENTRADAS</a>
           </Link>
           */}
-          <Link href="/">
-            <a className="font-light text-3xl">{title}</a>
-          </Link>
         </Navbar.Collapse>
         {/* 
         <ButtonLink href="/new" className="bg-dark entradas">{home ? ("AGREGAR ENTRADA") : ("NUEVA ENTRADA")}</ButtonLink>
