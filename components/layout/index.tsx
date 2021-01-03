@@ -13,7 +13,8 @@ function Layout({ children, home }) {
         }
     } else if(home === "PROFESSIONAL SUMMARY") {
         estilo = {
-            background: 'url(/fondo_code.jpg) no-repeat center center fixed',
+            //background: 'url(/fondo_code.jpg) no-repeat center center fixed',
+            background: 'linear-gradient(90deg, #1CB5E0 0%, #000851 100%)',
             backgroundSize: 'cover',
             height: '100vh'
         }
