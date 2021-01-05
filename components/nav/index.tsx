@@ -4,7 +4,7 @@ import ButtonLink from '@/components/button-link'
 
 import Navbar from 'react-bootstrap/Navbar'
 
-function Nav({ title = '', home = "entradas", secciones }) {
+function Nav({ title = '', home = "entradas" }) {
   return (
     <Container>
       <Navbar bg="light" expand="lg" sticky="top">
@@ -13,15 +13,6 @@ function Nav({ title = '', home = "entradas", secciones }) {
           <Link href="/">
             <a className="font-light text-3xl"><span className="lnr lnr-home"></span></a>
           </Link>
-          {secciones ? secciones.map((e) => (
-              <Link key={e.id} href={`/category/${e.ref}`}>
-                <a className="font-light text-3xl"  style={{
-                  color: title === e.nombre ? '#333' : '#fff'
-                }}>
-                  <span className="lnr lnr-arrow-right"></span> {e.nombre}
-                  </a>
-              </Link>
-          )) : ""}
           {/* 
           <Link href="/entradas">
             <a className="font-light text-3xl">ENTRADAS</a>

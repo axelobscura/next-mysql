@@ -14,7 +14,7 @@ function EditEntryPage({users, usersDos}) {
       <Layout 
         home={users.nombre}
       >
-        <Nav secciones={usersDos} title={users.nombre} />
+        <Nav title={users.nombre} />
         <Container>
           {users.nombre === "PERSONAL SUMMARY" ? 
             <PersonalSummary datos={users} />
@@ -31,7 +31,7 @@ function EditEntryPage({users, usersDos}) {
   } else {
     return (
       <Layout home="detalle">
-        <Nav secciones={usersDos} title="DETALLE" />
+        <Nav title="DETALLE" />
         <Container>
           <div className="container">
             <h1 className="font-bold text-3xl my-2">...</h1>
