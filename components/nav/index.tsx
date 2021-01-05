@@ -16,8 +16,7 @@ function Nav({ title = '', home = "entradas", secciones }) {
           {secciones ? secciones.map((e) => (
               <Link key={e.id} href={`/category/${e.ref}`}>
                 <a className="font-light text-3xl"  style={{
-                  color: title === e.nombre ? '#333' : '#fff',
-                  fontWeight: title === e.nombre ? '900' : '100',
+                  color: title === e.nombre ? '#333' : '#fff'
                 }}>
                   <span className="lnr lnr-arrow-right"></span> {e.nombre}
                   </a>
