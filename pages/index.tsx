@@ -21,6 +21,7 @@ function IndexPage({users}) {
             {users.map((e) => (
               <div key={e.id} className="py-2">
                 <Link href={`/category/${e.ref}`}><p>{e.nombre} <span className="lnr lnr-arrow-right"></span></p></Link>
+                <hr>
               </div>
             ))}
           </div>
