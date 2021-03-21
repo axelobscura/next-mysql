@@ -36,7 +36,7 @@ function Entradas() {
       <div>
         <Nav />
         <Container>
-          <Jumbotronix title="PRUEBA DE APIS" />
+          <Jumbotronix title="PRUEBA DE APIS CON MYSQL" />
           <Entries entries={entries} />
           <p>test</p>
         </Container>
